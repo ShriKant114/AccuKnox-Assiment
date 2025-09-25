@@ -1,16 +1,90 @@
-# React + Vite
+````markdown
+# CNAPP Dashboard Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + TailwindCSS responsive dashboard** created for an internship assignment.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Setup Instructions
 
-## React Compiler
+### 1. Clone Repository
+````
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/ShriKant114/AccuKnox-Assiment.git
+````
 
-## Expanding the ESLint configuration
+```bash
+cd AccuKnox-Assiment
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 2. Check if Node.js is Installed
+
+```bash
+node -v
+```
+
+If Node.js is not installed, download it from the [official Node.js site](https://nodejs.org/).
+
+---
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 4. Run Development Server
+
+```bash
+npm run dev
+```
+
+Now open the app in your browser at:
+👉 [http://localhost:5173/](http://localhost:5173/)
+
+---
+
+
+
+## 📂 Folder Structure
+
+```
+src/
+├─ components/
+│  ├─ Dashboard.jsx
+│  ├─ Navbar.jsx
+│  ├─ WidgetCard.jsx
+│  ├─ AddWidget.jsx
+│  ├─ CNAPP.jsx
+│  └─ Pi.jsx
+│
+├─ data/
+│  └─ dashboardData.js
+│
+├─ redux/
+│  ├─ widgetSlice.js
+│  └─ store.js
+│
+├─ pages/
+│  └─ Dashboard.jsx
+│
+├─ App.jsx
+├─ index.css
+├─ main.jsx
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **TailwindCSS**
+* **Redux Toolkit**
+* **Recharts**
+
+---
